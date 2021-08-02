@@ -1,0 +1,27 @@
+package Pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+public class DesktopPage extends HomePage{
+
+    @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[3]/a")
+    WebElement nextPage;
+
+    public DesktopPage(WebDriver driver) {
+        super(driver);
+    }
+
+    @Override
+    public void isLoaded() {
+        wait.until(ExpectedConditions.titleIs("Desktops"));
+    }
+
+    public void goToNextPage() {
+        js.executeScript("arguments[0].scrollIntoView(true);", nextPage);
+        nextPage.click();
+
+    }
+}
