@@ -2,9 +2,8 @@ package Tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.*;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,13 +15,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTest {
 
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected JavascriptExecutor js;
 
-    @BeforeEach
+    @BeforeAll
     public void setup() throws IOException {
 
         Properties properties = new Properties();
@@ -48,7 +48,7 @@ public class BaseTest {
 
     }
 
-    @AfterEach
+    @AfterAll
     public void teardown() {
         driver.quit();
     }

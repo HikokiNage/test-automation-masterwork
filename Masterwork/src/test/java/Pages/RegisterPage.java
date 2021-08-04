@@ -94,7 +94,7 @@ public class RegisterPage extends HomePage{
 
     }
 
-    public Boolean privacyAlertDisplay() {
+    public boolean privacyAlertDisplay() {
         return wait.until(ExpectedConditions.visibilityOf(privacyAlert)).isDisplayed();
     }
 

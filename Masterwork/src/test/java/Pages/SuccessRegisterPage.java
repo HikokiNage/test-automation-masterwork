@@ -9,9 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SuccessRegisterPage extends RegisterPage{
 
-    @FindBy(xpath = "//*[@id=\"content\"]/div/div/a")
-    WebElement continueButton;
-
     public SuccessRegisterPage(WebDriver driver) {
         super(driver);
     }

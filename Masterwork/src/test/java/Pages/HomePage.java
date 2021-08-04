@@ -1,18 +1,13 @@
 package Pages;
 
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -32,8 +27,11 @@ public class HomePage {
     @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a")
     WebElement loginButton;
 
-    @FindBy(id = "button-cart")
-    WebElement buttonCart;
+    @FindBy(xpath = "//*[@id=\"cart\"]/button")
+    WebElement productInCart;
+
+    @FindBy(xpath = "//*[@id=\"cart\"]/ul/li[1]/table/tbody/tr/td[5]/button")
+    WebElement remove;
 
 
     public HomePage(WebDriver driver) {
@@ -68,14 +66,11 @@ public class HomePage {
         return new LoginPage(driver);
     }
 
-    public void addToChart() {
-        List<WebElement> products = new ArrayList<>(driver.
-                findElements(By.));
-
-        for (WebElement product : products) {
-            product.click();
-            buttonCart.click();
-        }
+    public WebElement getProductInCart() {
+        return productInCart;
     }
 
+    public WebElement getRemove() {
+        return remove;
+    }
 }

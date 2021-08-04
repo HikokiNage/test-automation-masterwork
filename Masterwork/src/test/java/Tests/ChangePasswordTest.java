@@ -1,13 +1,19 @@
 package Tests;
 
 import Pages.*;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Feature("Change user Data")
 public class ChangePasswordTest extends BaseTest{
 
     @Test
+    @DisplayName("Change password")
+    @Description("A felhasználó megváltoztatja a jelszavát.")
     public void changePassword() {
         HomePage homePage = new HomePage(driver);
         homePage.open();

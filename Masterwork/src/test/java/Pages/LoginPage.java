@@ -18,6 +18,9 @@ public class LoginPage extends HomePage{
     @FindBy(xpath = "//*[@id=\"content\"]/div/div[2]/div/form/input")
     WebElement loginButton;
 
+    @FindBy(xpath = "//*[@id=\"account-login\"]/div[1]")
+    WebElement alertMessage;
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }
@@ -31,5 +34,9 @@ public class LoginPage extends HomePage{
         emailInput.sendKeys(email);
         passwordInput.sendKeys(password);
         loginButton.click();
+    }
+
+    public WebElement getAlertMessage() {
+        return alertMessage;
     }
 }

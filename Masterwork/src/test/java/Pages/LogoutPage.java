@@ -13,6 +13,7 @@ public class LogoutPage extends HomePage{
         super(driver);
     }
 
+    @Override
     public void isLoaded() {
         wait.until(ExpectedConditions.titleIs("Account Logout"));
     }
