@@ -1,5 +1,221 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Tests.ChangePasswordTest",
+    "children" : [ {
+      "name" : "Change password",
+      "uid" : "a34ab600d0357e90",
+      "parentUid" : "42cf210b6122a18a55795551a1b7e9f2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628079714307,
+        "stop" : 1628079728607,
+        "duration" : 14300
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "42cf210b6122a18a55795551a1b7e9f2"
+  }, {
+    "name" : "Tests.RegistrationTest",
+    "children" : [ {
+      "name" : "Read Privacy Policy",
+      "uid" : "2750dee66aadb629",
+      "parentUid" : "63361bd3b2b880511126c8d81088fd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079731531,
+        "stop" : 1628079734991,
+        "duration" : 3460
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Successful registration",
+      "uid" : "91f3c9684b551c46",
+      "parentUid" : "63361bd3b2b880511126c8d81088fd86",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628079734995,
+        "stop" : 1628079747886,
+        "duration" : 12891
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Unsuccessful registration",
+      "uid" : "b8a2f060453f5f83",
+      "parentUid" : "63361bd3b2b880511126c8d81088fd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079747890,
+        "stop" : 1628079750714,
+        "duration" : 2824
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "63361bd3b2b880511126c8d81088fd86"
+  }, {
+    "name" : "Tests.GetProductsNamesTest",
+    "children" : [ {
+      "name" : "Save products names",
+      "uid" : "facef39f8fef8308",
+      "parentUid" : "0fb70beac3e08e01417da08c8583b649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079752906,
+        "stop" : 1628079756403,
+        "duration" : 3497
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0fb70beac3e08e01417da08c8583b649"
+  }, {
+    "name" : "Tests.ListingTest",
+    "children" : [ {
+      "name" : "Sort A-Z",
+      "uid" : "782b7e9ce2cf7543",
+      "parentUid" : "67ac45325fa5133a9653a642ecd66715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079758656,
+        "stop" : 1628079762455,
+        "duration" : 3799
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "67ac45325fa5133a9653a642ecd66715"
+  }, {
+    "name" : "Tests.LoginTest",
+    "children" : [ {
+      "name" : "Unsuccessful login",
+      "uid" : "8de8c0eb7196c0ca",
+      "parentUid" : "9af79cd94f7a2d8fe9b7848b2b76d58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079764663,
+        "stop" : 1628079769528,
+        "duration" : 4865
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "119fda504277bb81",
+      "parentUid" : "9af79cd94f7a2d8fe9b7848b2b76d58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079769535,
+        "stop" : 1628079771684,
+        "duration" : 2149
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9af79cd94f7a2d8fe9b7848b2b76d58f"
+  }, {
+    "name" : "Tests.LogoutTest",
+    "children" : [ {
+      "name" : "Success logout",
+      "uid" : "cf9ffe457ff97ccd",
+      "parentUid" : "52793563d29d00e55d0fa40dbc86e8c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079774028,
+        "stop" : 1628079777990,
+        "duration" : 3962
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "52793563d29d00e55d0fa40dbc86e8c4"
+  }, {
+    "name" : "Tests.PaginationTest",
+    "children" : [ {
+      "name" : "Go to next page",
+      "uid" : "edef7bb4c90191cb",
+      "parentUid" : "e577b34bcc5bab2c383957943b13ec8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079780179,
+        "stop" : 1628079784283,
+        "duration" : 4104
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e577b34bcc5bab2c383957943b13ec8f"
+  }, {
+    "name" : "Tests.SendReviewTest",
+    "children" : [ {
+      "name" : "[1] Kilós János, Nagyon meg vagyok elégedve remek képeket csinál, 5",
+      "uid" : "fc76d10f56c77f54",
+      "parentUid" : "0f5ef4e62fea6336d9646ccc0c59b608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079786560,
+        "stop" : 1628079791918,
+        "duration" : 5358
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] Békefi Evelin, Nagyon nagy csalódás nem ajálom senkinek, 1",
+      "uid" : "3df8cb798e090e31",
+      "parentUid" : "0f5ef4e62fea6336d9646ccc0c59b608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079791923,
+        "stop" : 1628079795070,
+        "duration" : 3147
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] Király Bence, Nem rossz de nem is a legjobb kezdő gépnek megteszi, 4",
+      "uid" : "3fdcabefeb44b4a1",
+      "parentUid" : "0f5ef4e62fea6336d9646ccc0c59b608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079795073,
+        "stop" : 1628079798169,
+        "duration" : 3096
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0f5ef4e62fea6336d9646ccc0c59b608"
+  }, {
+    "name" : "Tests.ShoppingTest",
+    "children" : [ {
+      "name" : "Product add to cart",
+      "uid" : "e2fc27bd8e94d15",
+      "parentUid" : "3e7bd466e9aa09c6742977dc167adae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079800505,
+        "stop" : 1628079804994,
+        "duration" : 4489
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Remove a product fom the cart",
+      "uid" : "a3ffa3aff861bb0b",
+      "parentUid" : "3e7bd466e9aa09c6742977dc167adae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079804997,
+        "stop" : 1628079807632,
+        "duration" : 2635
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e7bd466e9aa09c6742977dc167adae4"
+  } ]
 }

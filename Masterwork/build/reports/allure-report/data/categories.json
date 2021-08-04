@@ -1,5 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for title to be \"My Account\". Current title: \"Account Login\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: be19ff0201fbcca92f37f408d9dca587",
+      "children" : [ {
+        "name" : "Change password",
+        "uid" : "a34ab600d0357e90",
+        "parentUid" : "b2a0fd5624464c6f3065312eac4c767a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628079714307,
+          "stop" : 1628079728607,
+          "duration" : 14300
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2a0fd5624464c6f3065312eac4c767a"
+    }, {
+      "name" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 503e525c2a0c1a0f8fb0d142b2a667ba",
+      "children" : [ {
+        "name" : "Successful registration",
+        "uid" : "91f3c9684b551c46",
+        "parentUid" : "980e5e37081a731ac009a4707345e8ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628079734995,
+          "stop" : 1628079747886,
+          "duration" : 12891
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "980e5e37081a731ac009a4707345e8ab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

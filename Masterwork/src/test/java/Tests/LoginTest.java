@@ -33,7 +33,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     @DisplayName("Unsuccessful login")
-    @Description("Nem adunk meg felhasználó nevet és jelszót.")
+    @Description("The user don't add username and password.")
     public void unSuccessfulLogin() {
         loginPage.login("", "");
         assertThat(loginPage.getAlertMessage().isDisplayed()).isTrue();
@@ -41,9 +41,9 @@ public class LoginTest extends BaseTest {
 
     @Test
     @DisplayName("Successful login")
-    @Description("A felhasználó sikeresen bejelentkezik")
+    @Description("The user successfully logged in.")
     public void SuccessfulLogin() {
-        loginPage.login("tesztandras@gmail.com", "Hikoki999");
+        loginPage.login("tesztandras@gmail.com", "Teszt123");
 
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         myAccountPage.isLoaded();

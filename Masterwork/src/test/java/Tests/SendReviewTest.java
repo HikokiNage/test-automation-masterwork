@@ -24,7 +24,7 @@ public class SendReviewTest extends BaseTest{
     @ParameterizedTest
     @CsvFileSource(resources = "/reviews.csv", numLinesToSkip = 1)
     @DisplayName("Sending Review")
-    @Description("A felhasználó  tudja véleményezni a terméket.")
+    @Description("The user send a review and rating the product.")
     public void sendReview(String yourName, String yourReview, String rating) {
         HomePage homePage = new HomePage(driver);
         homePage.open();

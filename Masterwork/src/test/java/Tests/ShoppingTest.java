@@ -10,9 +10,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -37,7 +34,7 @@ public class ShoppingTest extends BaseTest{
 
     @Test
     @DisplayName("Product add to cart")
-    @Description("A felhasználó egy terméket helyez a kosárba.")
+    @Description("The user add a product to the cart.")
     public void addToChart() throws InterruptedException {
 
 
@@ -56,7 +53,7 @@ public class ShoppingTest extends BaseTest{
 
     @Test
     @DisplayName("Remove a product fom the cart")
-    @Description("A felhasználó eltávolít egy terméket a kosárból.")
+    @Description("The user remove a product from the cart")
     public void removeFromCart() throws InterruptedException {
         homePage.getProductInCart().click();
         homePage.getRemove().click();

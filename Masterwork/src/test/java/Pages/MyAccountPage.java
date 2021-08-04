@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class MyAccountPage extends HomePage{
 
     @FindBy(xpath = "//*[@id=\"column-right\"]/div/a[1]")
@@ -64,10 +62,10 @@ public class MyAccountPage extends HomePage{
         return wait.until(ExpectedConditions.visibilityOf(successMessage)).isDisplayed();
     }
 
-    public PasswordPage navigateToPasswordPage() {
-        password.click();
+    public EditAccount navigateToEditAccount() {
+        editAccount.click();
 
-        return new PasswordPage(driver);
+        return new EditAccount(driver);
     }
 
     public void logout() {

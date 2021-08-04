@@ -1,1 +1,151 @@
-[ ]
+[ {
+  "uid" : "edef7bb4c90191cb",
+  "name" : "Go to next page",
+  "time" : {
+    "start" : 1628079780179,
+    "stop" : 1628079784283,
+    "duration" : 4104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df8cb798e090e31",
+  "name" : "[2] Békefi Evelin, Nagyon nagy csalódás nem ajálom senkinek, 1",
+  "time" : {
+    "start" : 1628079791923,
+    "stop" : 1628079795070,
+    "duration" : 3147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8a2f060453f5f83",
+  "name" : "Unsuccessful registration",
+  "time" : {
+    "start" : 1628079747890,
+    "stop" : 1628079750714,
+    "duration" : 2824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ffa3aff861bb0b",
+  "name" : "Remove a product fom the cart",
+  "time" : {
+    "start" : 1628079804997,
+    "stop" : 1628079807632,
+    "duration" : 2635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fdcabefeb44b4a1",
+  "name" : "[3] Király Bence, Nem rossz de nem is a legjobb kezdő gépnek megteszi, 4",
+  "time" : {
+    "start" : 1628079795073,
+    "stop" : 1628079798169,
+    "duration" : 3096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "782b7e9ce2cf7543",
+  "name" : "Sort A-Z",
+  "time" : {
+    "start" : 1628079758656,
+    "stop" : 1628079762455,
+    "duration" : 3799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2750dee66aadb629",
+  "name" : "Read Privacy Policy",
+  "time" : {
+    "start" : 1628079731531,
+    "stop" : 1628079734991,
+    "duration" : 3460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "facef39f8fef8308",
+  "name" : "Save products names",
+  "time" : {
+    "start" : 1628079752906,
+    "stop" : 1628079756403,
+    "duration" : 3497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc76d10f56c77f54",
+  "name" : "[1] Kilós János, Nagyon meg vagyok elégedve remek képeket csinál, 5",
+  "time" : {
+    "start" : 1628079786560,
+    "stop" : 1628079791918,
+    "duration" : 5358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a34ab600d0357e90",
+  "name" : "Change password",
+  "time" : {
+    "start" : 1628079714307,
+    "stop" : 1628079728607,
+    "duration" : 14300
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91f3c9684b551c46",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1628079734995,
+    "stop" : 1628079747886,
+    "duration" : 12891
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e2fc27bd8e94d15",
+  "name" : "Product add to cart",
+  "time" : {
+    "start" : 1628079800505,
+    "stop" : 1628079804994,
+    "duration" : 4489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "119fda504277bb81",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1628079769535,
+    "stop" : 1628079771684,
+    "duration" : 2149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8de8c0eb7196c0ca",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1628079764663,
+    "stop" : 1628079769528,
+    "duration" : 4865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf9ffe457ff97ccd",
+  "name" : "Success logout",
+  "time" : {
+    "start" : 1628079774028,
+    "stop" : 1628079777990,
+    "duration" : 3962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -15,7 +15,7 @@ public class PaginationTest extends BaseTest{
 
     @Test
     @DisplayName("Go to next page")
-    @Description("A felhasználó a következő oldalra léptet.")
+    @Description("The user flips through the next page.")
     public void pagination() {
         HomePage homePage = new HomePage(driver);
         homePage.open();

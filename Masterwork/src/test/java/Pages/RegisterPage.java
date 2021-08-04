@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -48,6 +49,8 @@ public class RegisterPage extends HomePage{
 
     @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
     WebElement privacyAlert;
+
+    Random random = new Random();
 
 
 

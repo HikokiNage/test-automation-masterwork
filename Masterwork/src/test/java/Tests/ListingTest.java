@@ -20,7 +20,7 @@ public class ListingTest extends BaseTest{
 
     @Test
     @DisplayName("Sort A-Z")
-    @Description("A termékek rendezése A-tól Z-ig.")
+    @Description("List the products to A-Z")
     public void shouldListToA_Z() {
         HomePage homePage = new HomePage(driver);
         homePage.open();

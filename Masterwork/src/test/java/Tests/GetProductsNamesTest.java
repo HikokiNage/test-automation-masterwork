@@ -24,7 +24,7 @@ public class GetProductsNamesTest extends BaseTest{
 
     @Test
     @DisplayName("Save products names")
-    @Description("Lementjök egy fájlba az adott oldalon található termékek neveit")
+    @Description("Save all the products names from the current pate to a file")
     public void getAllProductsNames() throws IOException {
         HomePage homePage = new HomePage(driver);
         homePage.open();

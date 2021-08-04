@@ -35,31 +35,31 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     @DisplayName("Read Privacy Policy")
-    @Description("A felhasználó elolvassza a Privacy Policy-t.")
+    @Description("The read Privacy Policy.")
     public void readPrivacyPolicy() {
         registerPage.readPrivacyPolicy();
     }
 
     @Test
     @DisplayName("Unsuccessful registration")
-    @Description("A felhasználó nem fogadja el a Privacy Policy-t.")
+    @Description("The user don't accept Privacy Policy.")
     public void unsuccessfulRegistration() {
         registerPage.unsuccessfulRegistration(
-                "Furesz", "Fog",
-                "fureszfog@gmail.com", "+36201234567",
-                "Teszt123", "Teszt123");
+                "Jon", "Doe",
+                "jondoe@gmail.com", "+36201234567",
+                "Jondoe123", "Jondoe123");
 
         assertTrue(registerPage.privacyAlertDisplay());
     }
 
     @Test
     @DisplayName("Successful registration")
-    @Description("A felhasználó sikeresen regisztrál.")
+    @Description("The registration was successful.")
     public void successfulRegistration() {
         registerPage.successfulRegistration(
-                "Furesz", "Fog",
-                "fureszfog@gmail.com", "+36203456789",
-                "Teszt123", "Teszt123");
+                "Jon", "Doe",
+                "jondoe@gmail.com", "+36201234567",
+                "Jondoe123", "Jondoe123");
 
         SuccessRegisterPage successRegisterPage = new SuccessRegisterPage(driver);
         successRegisterPage.isLoaded();

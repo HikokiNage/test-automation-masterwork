@@ -1,4 +1,103 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 9,
+  "items" : [ {
+    "uid" : "63361bd3b2b880511126c8d81088fd86",
+    "name" : "Tests.RegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "42cf210b6122a18a55795551a1b7e9f2",
+    "name" : "Tests.ChangePasswordTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0f5ef4e62fea6336d9646ccc0c59b608",
+    "name" : "Tests.SendReviewTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "9af79cd94f7a2d8fe9b7848b2b76d58f",
+    "name" : "Tests.LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "3e7bd466e9aa09c6742977dc167adae4",
+    "name" : "Tests.ShoppingTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0fb70beac3e08e01417da08c8583b649",
+    "name" : "Tests.GetProductsNamesTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "67ac45325fa5133a9653a642ecd66715",
+    "name" : "Tests.ListingTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "52793563d29d00e55d0fa40dbc86e8c4",
+    "name" : "Tests.LogoutTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e577b34bcc5bab2c383957943b13ec8f",
+    "name" : "Tests.PaginationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

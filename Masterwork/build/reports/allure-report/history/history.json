@@ -1,1 +1,289 @@
-{ }
+{
+  "b94ccf6afcec664eb63e8a1ce327062f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf9ffe457ff97ccd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079774028,
+        "stop" : 1628079777990,
+        "duration" : 3962
+      }
+    } ]
+  },
+  "3db1db20e1715f4f35a0e8416f46fe1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "facef39f8fef8308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079752906,
+        "stop" : 1628079756403,
+        "duration" : 3497
+      }
+    } ]
+  },
+  "562ab6f021e61d007775de084a4ef33c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2fc27bd8e94d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079800505,
+        "stop" : 1628079804994,
+        "duration" : 4489
+      }
+    } ]
+  },
+  "c677e79148c6e295b047f9065a0a7b00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fdcabefeb44b4a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079795073,
+        "stop" : 1628079798169,
+        "duration" : 3096
+      }
+    } ]
+  },
+  "f11c50f76a4f8caae6faf63aca6fa1c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a34ab600d0357e90",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"My Account\". Current title: \"Account Login\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: be19ff0201fbcca92f37f408d9dca587",
+      "time" : {
+        "start" : 1628079714307,
+        "stop" : 1628079728607,
+        "duration" : 14300
+      }
+    } ]
+  },
+  "8705ca9a6cda0cc6ea41555a38d9970c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc76d10f56c77f54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079786560,
+        "stop" : 1628079791918,
+        "duration" : 5358
+      }
+    } ]
+  },
+  "cea36cc0165989fdf4fbfdaec292fcbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "782b7e9ce2cf7543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079758656,
+        "stop" : 1628079762455,
+        "duration" : 3799
+      }
+    } ]
+  },
+  "68ce7b69f8f228b7ce0a8c0b4bda6e7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2750dee66aadb629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079731531,
+        "stop" : 1628079734991,
+        "duration" : 3460
+      }
+    } ]
+  },
+  "a28a134f40a5f86592ee9218ce68a634" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3ffa3aff861bb0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079804997,
+        "stop" : 1628079807632,
+        "duration" : 2635
+      }
+    } ]
+  },
+  "280dcb669e7605643febf45776ef3e26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8a2f060453f5f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079747890,
+        "stop" : 1628079750714,
+        "duration" : 2824
+      }
+    } ]
+  },
+  "7dde8b390318a9a62aaa01ff0cdf736b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edef7bb4c90191cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079780179,
+        "stop" : 1628079784283,
+        "duration" : 4104
+      }
+    } ]
+  },
+  "9fc9056e22447b4bf5aed746b6832244" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "119fda504277bb81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079769535,
+        "stop" : 1628079771684,
+        "duration" : 2149
+      }
+    } ]
+  },
+  "64760bbe42b1c510e3eca90b5388ce3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8de8c0eb7196c0ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079764663,
+        "stop" : 1628079769528,
+        "duration" : 4865
+      }
+    } ]
+  },
+  "e615aa1e0f45da9fe66b70c93f62008" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3df8cb798e090e31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079791923,
+        "stop" : 1628079795070,
+        "duration" : 3147
+      }
+    } ]
+  },
+  "a8c1789db9cb7b11808ed65f13c208e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91f3c9684b551c46",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 503e525c2a0c1a0f8fb0d142b2a667ba",
+      "time" : {
+        "start" : 1628079734995,
+        "stop" : 1628079747886,
+        "duration" : 12891
+      }
+    } ]
+  }
+}

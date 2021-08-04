@@ -22,7 +22,7 @@ public class LogoutTest extends BaseTest{
 
         LoginPage loginPage = homePage.navigateToLoginPage();
         loginPage.isLoaded();
-        loginPage.login("tesztandras@gmail.com", "Hikoki999");
+        loginPage.login("tesztandras@gmail.com", "Teszt123");
 
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         myAccountPage.isLoaded();
