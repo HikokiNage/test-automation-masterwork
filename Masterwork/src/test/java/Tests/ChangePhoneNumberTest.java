@@ -16,7 +16,7 @@ public class ChangePhoneNumberTest extends BaseTest{
     String phoneNumber = faker.phoneNumber().phoneNumber();
 
     @Test
-    @DisplayName("Change password")
+    @DisplayName("Change phone number")
     @Description("The user change the phone number.")
     public void changePhoneNumber() {
         HomePage homePage = new HomePage(driver);
