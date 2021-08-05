@@ -41,7 +41,7 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     @DisplayName("Read Privacy Policy")
-    @Description("The read Privacy Policy.")
+    @Description("The user read Privacy Policy.")
     public void readPrivacyPolicy() {
         registerPage.readPrivacyPolicy();
     }
