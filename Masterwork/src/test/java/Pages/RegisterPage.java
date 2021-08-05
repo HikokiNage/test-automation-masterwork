@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.concurrent.TimeUnit;
-
 public class RegisterPage extends HomePage{
 
     @FindBy(id = "input-firstname")
@@ -96,6 +94,4 @@ public class RegisterPage extends HomePage{
     public boolean privacyAlertDisplay() {
         return wait.until(ExpectedConditions.visibilityOf(privacyAlert)).isDisplayed();
     }
-
-
 }

@@ -52,6 +52,4 @@ public class NavBar extends HomePage{
 
         return new DesktopPage(driver);
     }
-
-
 }

@@ -32,7 +32,4 @@ public class DesktopPage extends HomePage{
     public String getShowingProductOnPagesString() {
         return showingPages.getText();
     }
-
-
-
 }
