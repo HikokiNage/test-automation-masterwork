@@ -4,9 +4,9 @@ Az alkalmazás az alábbi funkcikat teszteli:
                                             -Regisztráció
                                             -Bejelentkezés/Kijelentkezés
                                             -Termékek rendezése
-                                            -Kosárba helyezés/Korás tartalmának eltávolítása
+                                            -Kosárba helyezés/Kosár tartalmának eltávolítása
                                             -Termék értékelése
-                                            -KÖvetkező adatlista betöltése
+                                            -Köetkező adatlista betöltése
                                             -Felhasználói adat módosítás
                                             
                                           
