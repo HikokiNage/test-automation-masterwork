@@ -1,10 +1,7 @@
 package Tests;
 
 
-import Pages.HomePage;
-import Pages.MyAccountPage;
-import Pages.RegisterPage;
-import Pages.SuccessRegisterPage;
+import Pages.*;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
@@ -74,6 +71,9 @@ public class RegistrationTest extends BaseTest {
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         myAccountPage.isLoaded();
         myAccountPage.logout();
+
+        LogoutPage logoutPage = new LogoutPage(driver);
+        logoutPage.isLoaded();
     }
 }
 
