@@ -1,0 +1,52 @@
+{
+  "uid" : "104ee5f889944c3a",
+  "name" : "Unsuccessful registration",
+  "fullName" : "Tests.RegistrationTest.unsuccessfulRegistration",
+  "historyId" : "280dcb669e7605643febf45776ef3e26",
+  "time" : {
+    "start" : 1628162546075,
+    "stop" : 1628162548671,
+    "duration" : 2596
+  },
+  "description" : "The user don't accept Privacy Policy.",
+  "descriptionHtml" : "<p>The user don't accept Privacy Policy.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "7136@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unsuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "104ee5f889944c3a.json",
+  "parameterValues" : [ ]
+}

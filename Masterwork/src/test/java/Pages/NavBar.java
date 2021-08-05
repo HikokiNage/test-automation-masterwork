@@ -4,10 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 public class NavBar extends HomePage{
 
     @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[1]/a")

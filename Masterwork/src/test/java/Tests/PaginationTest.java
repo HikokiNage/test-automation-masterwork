@@ -30,7 +30,5 @@ public class PaginationTest extends BaseTest{
 
         assertEquals("Showing 16 to 16 of 16 (2 Pages)",
                 desktopPage.getShowingProductOnPagesString());
-
-
     }
 }

@@ -2,16 +2,16 @@ package Tests;
 
 
 import Pages.HomePage;
+import Pages.MyAccountPage;
 import Pages.RegisterPage;
 import Pages.SuccessRegisterPage;
-import Tests.BaseTest;
+import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -20,6 +20,13 @@ public class RegistrationTest extends BaseTest {
 
     HomePage homePage;
     RegisterPage registerPage;
+    Faker faker = new Faker();
+
+    String firstName = faker.name().firstName();
+    String lastName = faker.name().lastName();
+    String phoneNUmber = faker.phoneNumber().phoneNumber();
+
+
 
     @BeforeEach
     public void goToRegisterPage() {
@@ -30,7 +37,6 @@ public class RegistrationTest extends BaseTest {
         registerPage = homePage.navigateToRegisterPage();
 
         registerPage.isLoaded();
-
     }
 
     @Test
@@ -45,9 +51,9 @@ public class RegistrationTest extends BaseTest {
     @Description("The user don't accept Privacy Policy.")
     public void unsuccessfulRegistration() {
         registerPage.unsuccessfulRegistration(
-                "Jone", "Doe",
-                "jonedoe@gmail.com", "+36201234567",
-                "Jondoe123", "Jondoe123");
+                firstName, lastName,
+                firstName + lastName + "@gmail.com", phoneNUmber,
+                "Teszt123", "Teszt123");
 
         assertTrue(registerPage.privacyAlertDisplay());
     }
@@ -57,13 +63,17 @@ public class RegistrationTest extends BaseTest {
     @Description("The registration was successful.")
     public void successfulRegistration() {
         registerPage.successfulRegistration(
-                "Jon", "Doe",
-                "jondoe@gmail.com", "+36201234567",
-                "Jondoe123", "Jondoe123");
+                firstName, lastName,
+                firstName + lastName + "@gmail.com", phoneNUmber,
+                "Teszt123", "Teszt123");
 
         SuccessRegisterPage successRegisterPage = new SuccessRegisterPage(driver);
         successRegisterPage.isLoaded();
 
+        successRegisterPage.getContinueButton().click();
+        MyAccountPage myAccountPage = new MyAccountPage(driver);
+        myAccountPage.isLoaded();
+        myAccountPage.logout();
     }
 }
 

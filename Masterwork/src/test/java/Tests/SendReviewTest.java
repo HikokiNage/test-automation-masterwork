@@ -21,7 +21,7 @@ import java.util.List;
 @Feature("Send Review")
 public class SendReviewTest extends BaseTest{
 
-    @ParameterizedTest
+    @ParameterizedTest(name = "Sending Review")
     @CsvFileSource(resources = "/reviews.csv", numLinesToSkip = 1)
     @DisplayName("Sending Review")
     @Description("The user send a review and rating the product.")

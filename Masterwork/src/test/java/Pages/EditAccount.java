@@ -3,6 +3,7 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class EditAccount extends HomePage{
 
@@ -14,6 +15,11 @@ public class EditAccount extends HomePage{
 
     public EditAccount(WebDriver driver) {
         super(driver);
+    }
+
+    @Override
+    public void isLoaded() {
+        wait.until(ExpectedConditions.titleIs("My Account Information"));
     }
 
     public void changePhoneNumber(String newPhoneNumber) {

@@ -1,0 +1,52 @@
+{
+  "uid" : "22f7513d0b09b833",
+  "name" : "Save products names",
+  "fullName" : "Tests.GetProductsNamesTest.getAllProductsNames",
+  "historyId" : "3db1db20e1715f4f35a0e8416f46fe1f",
+  "time" : {
+    "start" : 1628162502652,
+    "stop" : 1628162507316,
+    "duration" : 4664
+  },
+  "description" : "Save all the products names from the current pate to a file",
+  "descriptionHtml" : "<p>Save all the products names from the current pate to a file</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Save data"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "7136@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.GetProductsNamesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.GetProductsNamesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getAllProductsNames"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.GetProductsNamesTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22f7513d0b09b833.json",
+  "parameterValues" : [ ]
+}

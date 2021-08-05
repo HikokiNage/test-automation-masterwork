@@ -1,16 +1,12 @@
 package Pages;
 
-import net.bytebuddy.pool.TypePool;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RegisterPage extends HomePage{
 
@@ -39,7 +35,7 @@ public class RegisterPage extends HomePage{
     WebElement newsletterSubscribeRadioButtonYes;
 
     @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/a")
-    WebElement privacyPolicy;
+    WebElement privacyPolicyLink;
 
     @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[1]")
     WebElement privacyPolicyCheckbox;
@@ -50,8 +46,8 @@ public class RegisterPage extends HomePage{
     @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
     WebElement privacyAlert;
 
-    Random random = new Random();
-
+    @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[2]/p")
+    WebElement privacyPolicyContent;
 
 
     public RegisterPage(WebDriver driver) {
@@ -90,8 +86,8 @@ public class RegisterPage extends HomePage{
     }
 
     public void readPrivacyPolicy() {
-        privacyPolicy.click();
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        privacyPolicyLink.click();
+        wait.until(ExpectedConditions.visibilityOf(privacyPolicyContent));
         WebElement closeButton = driver.findElement(By.xpath("//*[@id=\"modal-agree\"]/div/div/div[1]/button"));
         closeButton.click();
 

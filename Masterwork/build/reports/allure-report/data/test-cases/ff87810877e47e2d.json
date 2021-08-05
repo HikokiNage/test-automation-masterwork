@@ -1,0 +1,139 @@
+{
+  "uid" : "ff87810877e47e2d",
+  "name" : "Successful registration",
+  "fullName" : "Tests.RegistrationTest.successfulRegistration",
+  "historyId" : "a8c1789db9cb7b11808ed65f13c208e3",
+  "time" : {
+    "start" : 1628164878923,
+    "stop" : 1628164882835,
+    "duration" : 3912
+  },
+  "description" : "The registration was successful.",
+  "descriptionHtml" : "<p>The registration was successful.</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "25100@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "72212bafeef93cc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628164379047,
+        "stop" : 1628164382995,
+        "duration" : 3948
+      }
+    }, {
+      "uid" : "6d55e5059811a4e8",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1628164295078,
+        "stop" : 1628164295083,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "a9c4915131174885",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1628164238859,
+        "stop" : 1628164238866,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "2f782db7c064428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628162542224,
+        "stop" : 1628162546071,
+        "duration" : 3847
+      }
+    }, {
+      "uid" : "9df14625e96d8873",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628162331909,
+        "stop" : 1628162336111,
+        "duration" : 4202
+      }
+    }, {
+      "uid" : "5c343414133c0964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628161771206,
+        "stop" : 1628161774998,
+        "duration" : 3792
+      }
+    }, {
+      "uid" : "f5618414b17656d4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d7c91d4405087fc911c8ab614d5d5316",
+      "time" : {
+        "start" : 1628081113750,
+        "stop" : 1628081128003,
+        "duration" : 14253
+      }
+    }, {
+      "uid" : "25ce897c4c573feb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 503e525c2a0c1a0f8fb0d142b2a667ba",
+      "time" : {
+        "start" : 1628079734995,
+        "stop" : 1628079747886,
+        "duration" : 12891
+      }
+    }, {
+      "uid" : "e0aa1f74b9d313a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079379510,
+        "stop" : 1628079382676,
+        "duration" : 3166
+      }
+    }, {
+      "uid" : "bc2bc575435a426a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c1c20d33e4b2011b7685e3246749bcb0",
+      "time" : {
+        "start" : 1628078090918,
+        "stop" : 1628078104088,
+        "duration" : 13170
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff87810877e47e2d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "ebfe56bb0e006fe1",
+  "name" : "[1] Kilós János, Nagyon meg vagyok elégedve remek képeket csinál, 5",
+  "fullName" : "Tests.SendReviewTest.sendReview",
+  "historyId" : "8705ca9a6cda0cc6ea41555a38d9970c",
+  "time" : {
+    "start" : 1628161808769,
+    "stop" : 1628161813879,
+    "duration" : 5110
+  },
+  "description" : "The user send a review and rating the product.",
+  "descriptionHtml" : "<p>The user send a review and rating the product.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Send Review"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "20088@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.SendReviewTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SendReviewTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sendReview"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.SendReviewTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebfe56bb0e006fe1.json",
+  "parameterValues" : [ ]
+}

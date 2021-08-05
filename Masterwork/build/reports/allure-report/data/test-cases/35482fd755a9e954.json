@@ -1,0 +1,52 @@
+{
+  "uid" : "35482fd755a9e954",
+  "name" : "Change password",
+  "fullName" : "Tests.ChangePhoneNumberTest.changePhoneNumber",
+  "historyId" : "206ed8ee48258c3f388744bb6c56c58b",
+  "time" : {
+    "start" : 1628162284491,
+    "stop" : 1628162290848,
+    "duration" : 6357
+  },
+  "description" : "The user change the phone number.",
+  "descriptionHtml" : "<p>The user change the phone number.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Change user Data"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "12628@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.ChangePhoneNumberTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ChangePhoneNumberTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changePhoneNumber"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.ChangePhoneNumberTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35482fd755a9e954.json",
+  "parameterValues" : [ ]
+}

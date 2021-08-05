@@ -1,6 +1,7 @@
 package Tests;
 
 import Pages.*;
+import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
@@ -10,6 +11,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Feature("Change user Data")
 public class ChangePhoneNumberTest extends BaseTest{
+
+    Faker faker = new Faker();
+    String phoneNumber = faker.phoneNumber().phoneNumber();
 
     @Test
     @DisplayName("Change password")
@@ -25,11 +29,9 @@ public class ChangePhoneNumberTest extends BaseTest{
         myAccountPage.isLoaded();
 
         EditAccount editAccount = myAccountPage.navigateToEditAccount();
-        editAccount.changePhoneNumber("+36905023477");
-
-
+        editAccount.isLoaded();
+        editAccount.changePhoneNumber(phoneNumber);
 
         assertTrue(myAccountPage.successMessageDisplay());
-
     }
 }

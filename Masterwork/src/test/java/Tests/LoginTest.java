@@ -3,8 +3,6 @@ package Tests;
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.MyAccountPage;
-import Pages.NavBar;
-import Tests.BaseTest;
 import static org.assertj.core.api.Assertions.*;
 
 import io.qameta.allure.Description;
@@ -19,7 +17,6 @@ public class LoginTest extends BaseTest {
     HomePage homePage;
     LoginPage loginPage;
 
-
     @BeforeEach
     public void goToLoginPage() {
         homePage = new HomePage(driver);
@@ -27,7 +24,6 @@ public class LoginTest extends BaseTest {
         homePage.isLoaded();
 
         loginPage = homePage.navigateToLoginPage();
-
         loginPage.isLoaded();
     }
 
@@ -48,6 +44,4 @@ public class LoginTest extends BaseTest {
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         myAccountPage.isLoaded();
     }
-
-
 }
