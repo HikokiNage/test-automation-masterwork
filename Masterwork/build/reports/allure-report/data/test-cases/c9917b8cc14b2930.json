@@ -1,0 +1,78 @@
+{
+  "uid" : "c9917b8cc14b2930",
+  "name" : "Unsuccessful login",
+  "fullName" : "Tests.LoginTest.unSuccessfulLogin",
+  "historyId" : "64760bbe42b1c510e3eca90b5388ce3c",
+  "time" : {
+    "start" : 1628081148168,
+    "stop" : 1628081152887,
+    "duration" : 4719
+  },
+  "description" : "Nem adunk meg felhasznĂˇlĂł nevet Ă©s jelszĂłt.",
+  "descriptionHtml" : "<p>Nem adunk meg felhasznĂˇlĂł nevet Ă©s jelszĂłt.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "20216@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unSuccessfulLogin"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4ff12ef69d4ff32f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079764663,
+        "stop" : 1628079769528,
+        "duration" : 4865
+      }
+    }, {
+      "uid" : "b06fd0f67969da27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628079408600,
+        "stop" : 1628079412990,
+        "duration" : 4390
+      }
+    }, {
+      "uid" : "28fcc8775e3de6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628078065867,
+        "stop" : 1628078070556,
+        "duration" : 4689
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9917b8cc14b2930.json",
+  "parameterValues" : [ ]
+}

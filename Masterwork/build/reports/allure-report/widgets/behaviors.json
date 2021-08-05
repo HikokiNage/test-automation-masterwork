@@ -12,8 +12,19 @@
       "total" : 3
     }
   }, {
-    "uid" : "3de97050b9c6334c32602fdc0e5003f1",
-    "name" : "Change user Data",
+    "uid" : "14102d61eef2af473312d4f91dec531b",
+    "name" : "Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9",
+    "name" : "Logout",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -34,17 +45,6 @@
       "total" : 3
     }
   }, {
-    "uid" : "14102d61eef2af473312d4f91dec531b",
-    "name" : "Login",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "966e2b94e1c4658ba52eb695b60c4218",
     "name" : "Add to cart",
     "statistic" : {
@@ -54,6 +54,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "3de97050b9c6334c32602fdc0e5003f1",
+    "name" : "Change user Data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "9a2bbdc5596bf9e45bef3ba222e6d033",
@@ -69,17 +80,6 @@
   }, {
     "uid" : "ebaf7ce1d42fef9c3ab982189610e669",
     "name" : "Listing",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9",
-    "name" : "Logout",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -38,11 +38,11 @@ public class ShoppingTest extends BaseTest{
     public void addToChart() throws InterruptedException {
 
 
-        WebElement product = driver.findElement
+        WebElement acerPredatorOrionAddToCart = driver.findElement
                 (By.xpath("//*[@id=\"content\"]/div[4]/div[13]/div/div[2]/div[2]/button[1]"));
 
-        js.executeScript("arguments[0].scrollIntoView(true);", product);
-        product.click();
+        js.executeScript("arguments[0].scrollIntoView(true);", acerPredatorOrionAddToCart);
+        acerPredatorOrionAddToCart.click();
 
         js.executeScript("arguments[0].scrollIntoView(true);", homePage.getProductInCart());
 

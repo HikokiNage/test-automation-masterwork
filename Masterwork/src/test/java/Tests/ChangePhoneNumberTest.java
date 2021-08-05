@@ -14,18 +14,18 @@ public class ChangePhoneNumberTest extends BaseTest{
     @Test
     @DisplayName("Change password")
     @Description("The user change the phone number.")
-    public void changePassword() {
+    public void changePhoneNumber() {
         HomePage homePage = new HomePage(driver);
         homePage.open();
         LoginPage loginPage = homePage.navigateToLoginPage();
 
-        loginPage.login("csuhajeno@gmail.com", "Teszt123");
+        loginPage.login("tesztandras@gmail.com", "Teszt123");
         MyAccountPage myAccountPage = new MyAccountPage(driver);
 
         myAccountPage.isLoaded();
 
         EditAccount editAccount = myAccountPage.navigateToEditAccount();
-        editAccount.changePhoneNumber("+36905023478");
+        editAccount.changePhoneNumber("+36905023477");
 
 
 

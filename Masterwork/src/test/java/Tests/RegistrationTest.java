@@ -45,8 +45,8 @@ public class RegistrationTest extends BaseTest {
     @Description("The user don't accept Privacy Policy.")
     public void unsuccessfulRegistration() {
         registerPage.unsuccessfulRegistration(
-                "Jon", "Doe",
-                "jondoe@gmail.com", "+36201234567",
+                "Jone", "Doe",
+                "jonedoe@gmail.com", "+36201234567",
                 "Jondoe123", "Jondoe123");
 
         assertTrue(registerPage.privacyAlertDisplay());

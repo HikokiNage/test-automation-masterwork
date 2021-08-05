@@ -1,0 +1,52 @@
+{
+  "uid" : "31a541bbd99d257f",
+  "name" : "Product add to cart",
+  "fullName" : "Tests.ShoppingTest.addToChart",
+  "historyId" : "562ab6f021e61d007775de084a4ef33c",
+  "time" : {
+    "start" : 1628079444682,
+    "stop" : 1628079448352,
+    "duration" : 3670
+  },
+  "description" : "A felhasznĂˇlĂł egy termĂ©ket helyez a kosĂˇrba.",
+  "descriptionHtml" : "<p>A felhasznĂˇlĂł egy termĂ©ket helyez a kosĂˇrba.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add to cart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "20872@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.ShoppingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ShoppingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToChart"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.ShoppingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31a541bbd99d257f.json",
+  "parameterValues" : [ ]
+}

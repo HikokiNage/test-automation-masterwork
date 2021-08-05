@@ -2,19 +2,20 @@
   "b94ccf6afcec664eb63e8a1ce327062f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf9ffe457ff97ccd",
-      "status" : "passed",
+      "uid" : "f728f499fee6b019",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"My Account\". Current title: \"Account Login\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b5246da38f6ed1c2610d87787e679774",
       "time" : {
-        "start" : 1628079774028,
-        "stop" : 1628079777990,
-        "duration" : 3962
+        "start" : 1628081168823,
+        "stop" : 1628081183636,
+        "duration" : 14813
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "facef39f8fef8308",
+      "uid" : "4a65cbb611d3dd93",
       "status" : "passed",
       "time" : {
-        "start" : 1628079752906,
-        "stop" : 1628079756403,
-        "duration" : 3497
+        "start" : 1628081134613,
+        "stop" : 1628081138722,
+        "duration" : 4109
       }
     } ]
   },
@@ -47,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2fc27bd8e94d15",
+      "uid" : "cb9eaac6900edd7c",
       "status" : "passed",
       "time" : {
-        "start" : 1628079800505,
-        "stop" : 1628079804994,
-        "duration" : 4489
+        "start" : 1628081214045,
+        "stop" : 1628081219109,
+        "duration" : 5064
       }
     } ]
   },
@@ -66,32 +67,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3fdcabefeb44b4a1",
+      "uid" : "bcebe60b7742353b",
       "status" : "passed",
       "time" : {
-        "start" : 1628079795073,
-        "stop" : 1628079798169,
-        "duration" : 3096
+        "start" : 1628081206466,
+        "stop" : 1628081210990,
+        "duration" : 4524
       }
     } ]
   },
   "f11c50f76a4f8caae6faf63aca6fa1c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a34ab600d0357e90",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for title to be \"My Account\". Current title: \"Account Login\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: be19ff0201fbcca92f37f408d9dca587",
+      "uid" : "453e6dc99d186007",
+      "status" : "passed",
       "time" : {
-        "start" : 1628079714307,
-        "stop" : 1628079728607,
-        "duration" : 14300
+        "start" : 1628081097929,
+        "stop" : 1628081105602,
+        "duration" : 7673
       }
     } ]
   },
@@ -105,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc76d10f56c77f54",
+      "uid" : "1ac60f8199b6a86c",
       "status" : "passed",
       "time" : {
-        "start" : 1628079786560,
-        "stop" : 1628079791918,
-        "duration" : 5358
+        "start" : 1628081194470,
+        "stop" : 1628081201665,
+        "duration" : 7195
       }
     } ]
   },
@@ -124,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "782b7e9ce2cf7543",
+      "uid" : "39bcbf373f9de87a",
       "status" : "passed",
       "time" : {
-        "start" : 1628079758656,
-        "stop" : 1628079762455,
-        "duration" : 3799
+        "start" : 1628081141394,
+        "stop" : 1628081145433,
+        "duration" : 4039
       }
     } ]
   },
@@ -143,50 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2750dee66aadb629",
+      "uid" : "19efdf338875ea7d",
       "status" : "passed",
       "time" : {
-        "start" : 1628079731531,
-        "stop" : 1628079734991,
-        "duration" : 3460
-      }
-    } ]
-  },
-  "a28a134f40a5f86592ee9218ce68a634" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a3ffa3aff861bb0b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628079804997,
-        "stop" : 1628079807632,
-        "duration" : 2635
-      }
-    } ]
-  },
-  "280dcb669e7605643febf45776ef3e26" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b8a2f060453f5f83",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628079747890,
-        "stop" : 1628079750714,
-        "duration" : 2824
+        "start" : 1628081108681,
+        "stop" : 1628081113745,
+        "duration" : 5064
       }
     } ]
   },
@@ -200,50 +162,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "edef7bb4c90191cb",
+      "uid" : "171c7706df344af4",
       "status" : "passed",
       "time" : {
-        "start" : 1628079780179,
-        "stop" : 1628079784283,
-        "duration" : 4104
+        "start" : 1628081186745,
+        "stop" : 1628081191506,
+        "duration" : 4761
+      }
+    } ]
+  },
+  "a28a134f40a5f86592ee9218ce68a634" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "702bd04b2d574517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628081219113,
+        "stop" : 1628081222299,
+        "duration" : 3186
+      }
+    } ]
+  },
+  "280dcb669e7605643febf45776ef3e26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "400141ff66194cde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628081128009,
+        "stop" : 1628081131661,
+        "duration" : 3652
       }
     } ]
   },
   "9fc9056e22447b4bf5aed746b6832244" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "119fda504277bb81",
-      "status" : "passed",
+      "uid" : "b26aa5ff71acef49",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"My Account\". Current title: \"Account Login\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58771}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c779ebca4fab8b9c67a0d6bfb30e2def",
       "time" : {
-        "start" : 1628079769535,
-        "stop" : 1628079771684,
-        "duration" : 2149
-      }
-    } ]
-  },
-  "64760bbe42b1c510e3eca90b5388ce3c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8de8c0eb7196c0ca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628079764663,
-        "stop" : 1628079769528,
-        "duration" : 4865
+        "start" : 1628081152904,
+        "stop" : 1628081165948,
+        "duration" : 13044
       }
     } ]
   },
@@ -257,12 +239,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3df8cb798e090e31",
+      "uid" : "4ad3810eda75ae52",
       "status" : "passed",
       "time" : {
-        "start" : 1628079791923,
-        "stop" : 1628079795070,
-        "duration" : 3147
+        "start" : 1628081201673,
+        "stop" : 1628081206462,
+        "duration" : 4789
+      }
+    } ]
+  },
+  "64760bbe42b1c510e3eca90b5388ce3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9917b8cc14b2930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628081148168,
+        "stop" : 1628081152887,
+        "duration" : 4719
       }
     } ]
   },
@@ -276,13 +277,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91f3c9684b551c46",
+      "uid" : "ac58c7c8b97cf3a7",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 503e525c2a0c1a0f8fb0d142b2a667ba",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"Your Account Has Been Created!\". Current title: \"Register Account\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-S8P5BE1', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d7c91d4405087fc911c8ab614d5d5316",
       "time" : {
-        "start" : 1628079734995,
-        "stop" : 1628079747886,
-        "duration" : 12891
+        "start" : 1628081113750,
+        "stop" : 1628081128003,
+        "duration" : 14253
       }
     } ]
   }

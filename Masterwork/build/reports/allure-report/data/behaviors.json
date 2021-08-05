@@ -1,17 +1,16 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "Change user Data",
     "children" : [ {
       "name" : "Change password",
-      "uid" : "a34ab600d0357e90",
+      "uid" : "453e6dc99d186007",
       "parentUid" : "3de97050b9c6334c32602fdc0e5003f1",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1628079714307,
-        "stop" : 1628079728607,
-        "duration" : 14300
+        "start" : 1628081097929,
+        "stop" : 1628081105602,
+        "duration" : 7673
       },
       "flaky" : true,
       "parameters" : [ ]
@@ -21,37 +20,37 @@
     "name" : "Registration",
     "children" : [ {
       "name" : "Read Privacy Policy",
-      "uid" : "2750dee66aadb629",
+      "uid" : "19efdf338875ea7d",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1628079731531,
-        "stop" : 1628079734991,
-        "duration" : 3460
+        "start" : 1628081108681,
+        "stop" : 1628081113745,
+        "duration" : 5064
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Successful registration",
-      "uid" : "91f3c9684b551c46",
+      "uid" : "ac58c7c8b97cf3a7",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "broken",
       "time" : {
-        "start" : 1628079734995,
-        "stop" : 1628079747886,
-        "duration" : 12891
+        "start" : 1628081113750,
+        "stop" : 1628081128003,
+        "duration" : 14253
       },
       "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "Unsuccessful registration",
-      "uid" : "b8a2f060453f5f83",
+      "uid" : "400141ff66194cde",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1628079747890,
-        "stop" : 1628079750714,
-        "duration" : 2824
+        "start" : 1628081128009,
+        "stop" : 1628081131661,
+        "duration" : 3652
       },
       "flaky" : true,
       "parameters" : [ ]
@@ -61,13 +60,13 @@
     "name" : "Save data",
     "children" : [ {
       "name" : "Save products names",
-      "uid" : "facef39f8fef8308",
+      "uid" : "4a65cbb611d3dd93",
       "parentUid" : "9a2bbdc5596bf9e45bef3ba222e6d033",
       "status" : "passed",
       "time" : {
-        "start" : 1628079752906,
-        "stop" : 1628079756403,
-        "duration" : 3497
+        "start" : 1628081134613,
+        "stop" : 1628081138722,
+        "duration" : 4109
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -77,13 +76,13 @@
     "name" : "Listing",
     "children" : [ {
       "name" : "Sort A-Z",
-      "uid" : "782b7e9ce2cf7543",
+      "uid" : "39bcbf373f9de87a",
       "parentUid" : "ebaf7ce1d42fef9c3ab982189610e669",
       "status" : "passed",
       "time" : {
-        "start" : 1628079758656,
-        "stop" : 1628079762455,
-        "duration" : 3799
+        "start" : 1628081141394,
+        "stop" : 1628081145433,
+        "duration" : 4039
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -93,25 +92,25 @@
     "name" : "Login",
     "children" : [ {
       "name" : "Unsuccessful login",
-      "uid" : "8de8c0eb7196c0ca",
+      "uid" : "c9917b8cc14b2930",
       "parentUid" : "14102d61eef2af473312d4f91dec531b",
       "status" : "passed",
       "time" : {
-        "start" : 1628079764663,
-        "stop" : 1628079769528,
-        "duration" : 4865
+        "start" : 1628081148168,
+        "stop" : 1628081152887,
+        "duration" : 4719
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Successful login",
-      "uid" : "119fda504277bb81",
+      "uid" : "b26aa5ff71acef49",
       "parentUid" : "14102d61eef2af473312d4f91dec531b",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1628079769535,
-        "stop" : 1628079771684,
-        "duration" : 2149
+        "start" : 1628081152904,
+        "stop" : 1628081165948,
+        "duration" : 13044
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -121,13 +120,13 @@
     "name" : "Logout",
     "children" : [ {
       "name" : "Success logout",
-      "uid" : "cf9ffe457ff97ccd",
+      "uid" : "f728f499fee6b019",
       "parentUid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1628079774028,
-        "stop" : 1628079777990,
-        "duration" : 3962
+        "start" : 1628081168823,
+        "stop" : 1628081183636,
+        "duration" : 14813
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -137,13 +136,13 @@
     "name" : "Pagination",
     "children" : [ {
       "name" : "Go to next page",
-      "uid" : "edef7bb4c90191cb",
+      "uid" : "171c7706df344af4",
       "parentUid" : "110ce11a311023c306f086b8d75a9dfa",
       "status" : "passed",
       "time" : {
-        "start" : 1628079780179,
-        "stop" : 1628079784283,
-        "duration" : 4104
+        "start" : 1628081186745,
+        "stop" : 1628081191506,
+        "duration" : 4761
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -153,37 +152,37 @@
     "name" : "Send Review",
     "children" : [ {
       "name" : "[1] Kilós János, Nagyon meg vagyok elégedve remek képeket csinál, 5",
-      "uid" : "fc76d10f56c77f54",
+      "uid" : "1ac60f8199b6a86c",
       "parentUid" : "075786caa395d674c71b3001df38df67",
       "status" : "passed",
       "time" : {
-        "start" : 1628079786560,
-        "stop" : 1628079791918,
-        "duration" : 5358
+        "start" : 1628081194470,
+        "stop" : 1628081201665,
+        "duration" : 7195
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "[2] Békefi Evelin, Nagyon nagy csalódás nem ajálom senkinek, 1",
-      "uid" : "3df8cb798e090e31",
+      "uid" : "4ad3810eda75ae52",
       "parentUid" : "075786caa395d674c71b3001df38df67",
       "status" : "passed",
       "time" : {
-        "start" : 1628079791923,
-        "stop" : 1628079795070,
-        "duration" : 3147
+        "start" : 1628081201673,
+        "stop" : 1628081206462,
+        "duration" : 4789
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "[3] Király Bence, Nem rossz de nem is a legjobb kezdő gépnek megteszi, 4",
-      "uid" : "3fdcabefeb44b4a1",
+      "uid" : "bcebe60b7742353b",
       "parentUid" : "075786caa395d674c71b3001df38df67",
       "status" : "passed",
       "time" : {
-        "start" : 1628079795073,
-        "stop" : 1628079798169,
-        "duration" : 3096
+        "start" : 1628081206466,
+        "stop" : 1628081210990,
+        "duration" : 4524
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -193,29 +192,30 @@
     "name" : "Add to cart",
     "children" : [ {
       "name" : "Product add to cart",
-      "uid" : "e2fc27bd8e94d15",
+      "uid" : "cb9eaac6900edd7c",
       "parentUid" : "966e2b94e1c4658ba52eb695b60c4218",
       "status" : "passed",
       "time" : {
-        "start" : 1628079800505,
-        "stop" : 1628079804994,
-        "duration" : 4489
+        "start" : 1628081214045,
+        "stop" : 1628081219109,
+        "duration" : 5064
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Remove a product fom the cart",
-      "uid" : "a3ffa3aff861bb0b",
+      "uid" : "702bd04b2d574517",
       "parentUid" : "966e2b94e1c4658ba52eb695b60c4218",
       "status" : "passed",
       "time" : {
-        "start" : 1628079804997,
-        "stop" : 1628079807632,
-        "duration" : 2635
+        "start" : 1628081219113,
+        "stop" : 1628081222299,
+        "duration" : 3186
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "966e2b94e1c4658ba52eb695b60c4218"
-  } ]
+  } ],
+  "name" : "behaviors"
 }
