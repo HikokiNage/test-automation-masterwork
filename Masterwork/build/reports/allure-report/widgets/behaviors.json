@@ -23,17 +23,6 @@
       "total" : 3
     }
   }, {
-    "uid" : "3de97050b9c6334c32602fdc0e5003f1",
-    "name" : "Change user Data",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "14102d61eef2af473312d4f91dec531b",
     "name" : "Login",
     "statistic" : {
@@ -54,6 +43,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "3de97050b9c6334c32602fdc0e5003f1",
+    "name" : "Change user Data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "9a2bbdc5596bf9e45bef3ba222e6d033",

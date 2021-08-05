@@ -1,0 +1,54 @@
+{
+  "uid" : "aaaf0e890ad3db1d",
+  "name" : "Sending Review",
+  "fullName" : "Tests.SendReviewTest.sendReview",
+  "historyId" : "8705ca9a6cda0cc6ea41555a38d9970c",
+  "time" : {
+    "start" : 1628167691402,
+    "stop" : 1628167699073,
+    "duration" : 7671
+  },
+  "description" : "The user send a review and rating the product.",
+  "descriptionHtml" : "<p>The user send a review and rating the product.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Send Review"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.SendReviewTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SendReviewTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sendReview"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.SendReviewTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aaaf0e890ad3db1d.json",
+  "parameterValues" : [ ]
+}

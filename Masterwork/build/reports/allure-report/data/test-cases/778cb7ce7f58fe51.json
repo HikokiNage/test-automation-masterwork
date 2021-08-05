@@ -1,0 +1,54 @@
+{
+  "uid" : "778cb7ce7f58fe51",
+  "name" : "Successful registration",
+  "fullName" : "Tests.RegistrationTest.successfulRegistration",
+  "historyId" : "a8c1789db9cb7b11808ed65f13c208e3",
+  "time" : {
+    "start" : 1628167677583,
+    "stop" : 1628167684682,
+    "duration" : 7099
+  },
+  "description" : "The registration was successful.",
+  "descriptionHtml" : "<p>The registration was successful.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "778cb7ce7f58fe51.json",
+  "parameterValues" : [ ]
+}

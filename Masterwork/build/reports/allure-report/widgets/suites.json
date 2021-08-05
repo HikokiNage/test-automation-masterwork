@@ -1,5 +1,5 @@
 {
-  "total" : 10,
+  "total" : 9,
   "items" : [ {
     "uid" : "63361bd3b2b880511126c8d81088fd86",
     "name" : "Tests.RegistrationTest",
@@ -43,17 +43,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "42cf210b6122a18a55795551a1b7e9f2",
-    "name" : "Tests.ChangePasswordTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   }, {
     "uid" : "1188ec1858b9af28779d1b64703e00c9",
