@@ -1,12 +1,12 @@
 {
-  "uid" : "39737e792e1a1705",
+  "uid" : "d3044e5f8a3f3f34",
   "name" : "Sending Review",
   "fullName" : "Tests.SendReviewTest.sendReview",
-  "historyId" : "e615aa1e0f45da9fe66b70c93f62008",
+  "historyId" : "8705ca9a6cda0cc6ea41555a38d9970c",
   "time" : {
-    "start" : 1628167699079,
-    "stop" : 1628167704155,
-    "duration" : 5076
+    "start" : 1628167691402,
+    "stop" : 1628167699073,
+    "duration" : 7671
   },
   "description" : "The user send a review and rating the product.",
   "descriptionHtml" : "<p>The user send a review and rating the product.</p>\n",
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "39737e792e1a1705.json",
+  "source" : "d3044e5f8a3f3f34.json",
   "parameterValues" : [ ]
 }

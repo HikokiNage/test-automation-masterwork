@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests.SendReviewTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-05T12:48:11" hostname="DESKTOP-S8P5BE1" time="18.487">
+<testsuite name="Tests.SendReviewTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-05T20:22:05" hostname="DESKTOP-S8P5BE1" time="8.423">
   <properties/>
-  <testcase name="sendReview(String, String, String)[1]" classname="Tests.SendReviewTest" time="7.674"/>
-  <testcase name="sendReview(String, String, String)[2]" classname="Tests.SendReviewTest" time="5.077"/>
-  <testcase name="sendReview(String, String, String)[3]" classname="Tests.SendReviewTest" time="5.731"/>
+  <testcase name="sendReview(String, String, String)[1]" classname="Tests.SendReviewTest" time="4.629"/>
+  <testcase name="sendReview(String, String, String)[2]" classname="Tests.SendReviewTest" time="1.958"/>
+  <testcase name="sendReview(String, String, String)[3]" classname="Tests.SendReviewTest" time="1.831"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7015
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 43767
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 05, 2021 2:48:11 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 05, 2021 10:22:05 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

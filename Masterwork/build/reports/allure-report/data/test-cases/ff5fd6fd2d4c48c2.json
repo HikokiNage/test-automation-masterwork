@@ -1,12 +1,12 @@
 {
-  "uid" : "86614af6cb94910f",
+  "uid" : "ff5fd6fd2d4c48c2",
   "name" : "Go to next page",
   "fullName" : "Tests.PaginationTest.pagination",
   "historyId" : "7dde8b390318a9a62aaa01ff0cdf736b",
   "time" : {
-    "start" : 1628167664536,
-    "stop" : 1628167669764,
-    "duration" : 5228
+    "start" : 1628194911394,
+    "stop" : 1628194914393,
+    "duration" : 2999
   },
   "description" : "The user flips through the next page.",
   "descriptionHtml" : "<p>The user flips through the next page.</p>\n",
@@ -22,7 +22,7 @@
     "value" : "DESKTOP-S8P5BE1"
   }, {
     "name" : "thread",
-    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "Tests.PaginationTest"
@@ -45,10 +45,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "b5a200a901daff65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167664536,
+        "stop" : 1628167669764,
+        "duration" : 5228
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "86614af6cb94910f.json",
+  "source" : "ff5fd6fd2d4c48c2.json",
   "parameterValues" : [ ]
 }

@@ -1,150 +1,150 @@
 [ {
-  "uid" : "d46d774919ca10d2",
-  "name" : "Product add to cart",
-  "time" : {
-    "start" : 1628167711977,
-    "stop" : 1628167717780,
-    "duration" : 5803
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39737e792e1a1705",
-  "name" : "Sending Review",
-  "time" : {
-    "start" : 1628167699079,
-    "stop" : 1628167704155,
-    "duration" : 5076
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "caaea48193b2928",
-  "name" : "Sort A-Z",
-  "time" : {
-    "start" : 1628167635584,
-    "stop" : 1628167641187,
-    "duration" : 5603
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2769af73c10f88c3",
-  "name" : "Sending Review",
-  "time" : {
-    "start" : 1628167704158,
-    "stop" : 1628167709888,
-    "duration" : 5730
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba3032fbb464b128",
+  "uid" : "f21f1aab2f1ba2e7",
   "name" : "Change phone number",
   "time" : {
-    "start" : 1628167617774,
-    "stop" : 1628167626079,
-    "duration" : 8305
+    "start" : 1628194877982,
+    "stop" : 1628194882259,
+    "duration" : 4277
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a193ea19f9f225ee",
-  "name" : "Success logout",
-  "time" : {
-    "start" : 1628167655524,
-    "stop" : 1628167662311,
-    "duration" : 6787
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8de9e7b7b160b35",
-  "name" : "Successful login",
-  "time" : {
-    "start" : 1628167649311,
-    "stop" : 1628167653429,
-    "duration" : 4118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "63dcad96d493ccca",
-  "name" : "Read Privacy Policy",
-  "time" : {
-    "start" : 1628167672005,
-    "stop" : 1628167677580,
-    "duration" : 5575
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b8b71f0bd0115f6f",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1628167643252,
-    "stop" : 1628167649302,
-    "duration" : 6050
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a77db1b52635ff6f",
+  "uid" : "1663474429bfdcba",
   "name" : "Save products names",
   "time" : {
-    "start" : 1628167628361,
-    "stop" : 1628167633345,
-    "duration" : 4984
+    "start" : 1628194884732,
+    "stop" : 1628194888115,
+    "duration" : 3383
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "86614af6cb94910f",
-  "name" : "Go to next page",
+  "uid" : "58eba31aeec0bcf5",
+  "name" : "Unsuccessful login",
   "time" : {
-    "start" : 1628167664536,
-    "stop" : 1628167669764,
-    "duration" : 5228
+    "start" : 1628194895054,
+    "stop" : 1628194898582,
+    "duration" : 3528
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aaaf0e890ad3db1d",
+  "uid" : "7c37d4d9313411fd",
+  "name" : "Product add to cart",
+  "time" : {
+    "start" : 1628194936519,
+    "stop" : 1628194940686,
+    "duration" : 4167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef8692f0ff79309c",
   "name" : "Sending Review",
   "time" : {
-    "start" : 1628167691402,
-    "stop" : 1628167699073,
-    "duration" : 7671
+    "start" : 1628194930546,
+    "stop" : 1628194932502,
+    "duration" : 1956
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a02948ad706eaf1e",
+  "uid" : "4f86544e1917cff7",
+  "name" : "Read Privacy Policy",
+  "time" : {
+    "start" : 1628194916733,
+    "stop" : 1628194919773,
+    "duration" : 3040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c653c1e5a0057c0",
   "name" : "Unsuccessful registration",
   "time" : {
-    "start" : 1628167684688,
-    "stop" : 1628167689133,
-    "duration" : 4445
+    "start" : 1628194922051,
+    "stop" : 1628194923681,
+    "duration" : 1630
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "778cb7ce7f58fe51",
-  "name" : "Successful registration",
+  "uid" : "1bc0291731ca49aa",
+  "name" : "Sending Review",
   "time" : {
-    "start" : 1628167677583,
-    "stop" : 1628167684682,
-    "duration" : 7099
+    "start" : 1628194932505,
+    "stop" : 1628194934335,
+    "duration" : 1830
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d67f51864727dda",
+  "uid" : "ff5fd6fd2d4c48c2",
+  "name" : "Go to next page",
+  "time" : {
+    "start" : 1628194911394,
+    "stop" : 1628194914393,
+    "duration" : 2999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cb0f3222b187b95",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1628194898591,
+    "stop" : 1628194899830,
+    "duration" : 1239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9ca420ea2d8329",
   "name" : "Remove a product fom the cart",
   "time" : {
-    "start" : 1628167717783,
-    "stop" : 1628167721918,
-    "duration" : 4135
+    "start" : 1628194940689,
+    "stop" : 1628194942559,
+    "duration" : 1870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95120db143e29db9",
+  "name" : "Sending Review",
+  "time" : {
+    "start" : 1628194925913,
+    "stop" : 1628194930541,
+    "duration" : 4628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a88cb526939f9d88",
+  "name" : "Sort A-Z",
+  "time" : {
+    "start" : 1628194890352,
+    "stop" : 1628194892833,
+    "duration" : 2481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f46f9ec57a1c9e",
+  "name" : "Success logout",
+  "time" : {
+    "start" : 1628194903977,
+    "stop" : 1628194909145,
+    "duration" : 5168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd12a9a0af4dc0bc",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1628194919776,
+    "stop" : 1628194922048,
+    "duration" : 2272
   },
   "status" : "passed",
   "severity" : "normal"

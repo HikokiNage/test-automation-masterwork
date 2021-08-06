@@ -1,5 +1,5 @@
 {
-  "uid" : "d46d774919ca10d2",
+  "uid" : "eb5de79d765f1cdc",
   "name" : "Product add to cart",
   "fullName" : "Tests.ShoppingTest.addToChart",
   "historyId" : "562ab6f021e61d007775de084a4ef33c",
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d46d774919ca10d2.json",
+  "source" : "eb5de79d765f1cdc.json",
   "parameterValues" : [ ]
 }

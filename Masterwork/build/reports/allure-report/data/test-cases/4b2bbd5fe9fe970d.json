@@ -1,15 +1,15 @@
 {
-  "uid" : "63dcad96d493ccca",
-  "name" : "Read Privacy Policy",
-  "fullName" : "Tests.RegistrationTest.readPrivacyPolicy",
-  "historyId" : "68ce7b69f8f228b7ce0a8c0b4bda6e7d",
+  "uid" : "4b2bbd5fe9fe970d",
+  "name" : "Unsuccessful registration",
+  "fullName" : "Tests.RegistrationTest.unsuccessfulRegistration",
+  "historyId" : "280dcb669e7605643febf45776ef3e26",
   "time" : {
-    "start" : 1628167672005,
-    "stop" : 1628167677580,
-    "duration" : 5575
+    "start" : 1628167684688,
+    "stop" : 1628167689133,
+    "duration" : 4445
   },
-  "description" : "The read Privacy Policy.",
-  "descriptionHtml" : "<p>The read Privacy Policy.</p>\n",
+  "description" : "The user don't accept Privacy Policy.",
+  "descriptionHtml" : "<p>The user don't accept Privacy Policy.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -31,7 +31,7 @@
     "value" : "Tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "readPrivacyPolicy"
+    "value" : "unsuccessfulRegistration"
   }, {
     "name" : "suite",
     "value" : "Tests.RegistrationTest"
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "63dcad96d493ccca.json",
+  "source" : "4b2bbd5fe9fe970d.json",
   "parameterValues" : [ ]
 }

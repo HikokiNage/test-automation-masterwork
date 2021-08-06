@@ -1,5 +1,5 @@
 {
-  "uid" : "ba3032fbb464b128",
+  "uid" : "7610bed15daa2b38",
   "name" : "Change phone number",
   "fullName" : "Tests.ChangePhoneNumberTest.changePhoneNumber",
   "historyId" : "206ed8ee48258c3f388744bb6c56c58b",
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ba3032fbb464b128.json",
+  "source" : "7610bed15daa2b38.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "2769af73c10f88c3",
+  "uid" : "95120db143e29db9",
   "name" : "Sending Review",
   "fullName" : "Tests.SendReviewTest.sendReview",
-  "historyId" : "c677e79148c6e295b047f9065a0a7b00",
+  "historyId" : "8705ca9a6cda0cc6ea41555a38d9970c",
   "time" : {
-    "start" : 1628167704158,
-    "stop" : 1628167709888,
-    "duration" : 5730
+    "start" : 1628194925913,
+    "stop" : 1628194930541,
+    "duration" : 4628
   },
   "description" : "The user send a review and rating the product.",
   "descriptionHtml" : "<p>The user send a review and rating the product.</p>\n",
@@ -22,7 +22,7 @@
     "value" : "DESKTOP-S8P5BE1"
   }, {
     "name" : "thread",
-    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "Tests.SendReviewTest"
@@ -45,10 +45,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "d3044e5f8a3f3f34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167691402,
+        "stop" : 1628167699073,
+        "duration" : 7671
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2769af73c10f88c3.json",
+  "source" : "95120db143e29db9.json",
   "parameterValues" : [ ]
 }

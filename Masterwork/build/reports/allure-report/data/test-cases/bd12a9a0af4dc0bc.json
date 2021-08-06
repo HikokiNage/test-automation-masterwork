@@ -1,0 +1,62 @@
+{
+  "uid" : "bd12a9a0af4dc0bc",
+  "name" : "Successful registration",
+  "fullName" : "Tests.RegistrationTest.successfulRegistration",
+  "historyId" : "a8c1789db9cb7b11808ed65f13c208e3",
+  "time" : {
+    "start" : 1628194919776,
+    "stop" : 1628194922048,
+    "duration" : 2272
+  },
+  "description" : "The registration was successful.",
+  "descriptionHtml" : "<p>The registration was successful.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2431ee4565e78543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167677583,
+        "stop" : 1628167684682,
+        "duration" : 7099
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd12a9a0af4dc0bc.json",
+  "parameterValues" : [ ]
+}

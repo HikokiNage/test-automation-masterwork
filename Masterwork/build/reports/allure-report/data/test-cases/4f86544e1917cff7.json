@@ -1,15 +1,15 @@
 {
-  "uid" : "778cb7ce7f58fe51",
-  "name" : "Successful registration",
-  "fullName" : "Tests.RegistrationTest.successfulRegistration",
-  "historyId" : "a8c1789db9cb7b11808ed65f13c208e3",
+  "uid" : "4f86544e1917cff7",
+  "name" : "Read Privacy Policy",
+  "fullName" : "Tests.RegistrationTest.readPrivacyPolicy",
+  "historyId" : "68ce7b69f8f228b7ce0a8c0b4bda6e7d",
   "time" : {
-    "start" : 1628167677583,
-    "stop" : 1628167684682,
-    "duration" : 7099
+    "start" : 1628194916733,
+    "stop" : 1628194919773,
+    "duration" : 3040
   },
-  "description" : "The registration was successful.",
-  "descriptionHtml" : "<p>The registration was successful.</p>\n",
+  "description" : "The user read Privacy Policy.",
+  "descriptionHtml" : "<p>The user read Privacy Policy.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -22,7 +22,7 @@
     "value" : "DESKTOP-S8P5BE1"
   }, {
     "name" : "thread",
-    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "Tests.RegistrationTest"
@@ -31,7 +31,7 @@
     "value" : "Tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "successfulRegistration"
+    "value" : "readPrivacyPolicy"
   }, {
     "name" : "suite",
     "value" : "Tests.RegistrationTest"
@@ -45,10 +45,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "156fc12689078950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167672005,
+        "stop" : 1628167677580,
+        "duration" : 5575
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "778cb7ce7f58fe51.json",
+  "source" : "4f86544e1917cff7.json",
   "parameterValues" : [ ]
 }

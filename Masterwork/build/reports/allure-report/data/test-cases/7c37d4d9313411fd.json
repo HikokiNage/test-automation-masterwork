@@ -1,15 +1,15 @@
 {
-  "uid" : "6d67f51864727dda",
-  "name" : "Remove a product fom the cart",
-  "fullName" : "Tests.ShoppingTest.removeFromCart",
-  "historyId" : "a28a134f40a5f86592ee9218ce68a634",
+  "uid" : "7c37d4d9313411fd",
+  "name" : "Product add to cart",
+  "fullName" : "Tests.ShoppingTest.addToChart",
+  "historyId" : "562ab6f021e61d007775de084a4ef33c",
   "time" : {
-    "start" : 1628167717783,
-    "stop" : 1628167721918,
-    "duration" : 4135
+    "start" : 1628194936519,
+    "stop" : 1628194940686,
+    "duration" : 4167
   },
-  "description" : "The user remove a product from the cart",
-  "descriptionHtml" : "<p>The user remove a product from the cart</p>\n",
+  "description" : "The user add a product to the cart.",
+  "descriptionHtml" : "<p>The user add a product to the cart.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -22,7 +22,7 @@
     "value" : "DESKTOP-S8P5BE1"
   }, {
     "name" : "thread",
-    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "Tests.ShoppingTest"
@@ -31,7 +31,7 @@
     "value" : "Tests.ShoppingTest"
   }, {
     "name" : "testMethod",
-    "value" : "removeFromCart"
+    "value" : "addToChart"
   }, {
     "name" : "suite",
     "value" : "Tests.ShoppingTest"
@@ -45,10 +45,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "eb5de79d765f1cdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167711977,
+        "stop" : 1628167717780,
+        "duration" : 5803
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6d67f51864727dda.json",
+  "source" : "7c37d4d9313411fd.json",
   "parameterValues" : [ ]
 }

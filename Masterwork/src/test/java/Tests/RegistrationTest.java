@@ -21,7 +21,7 @@ public class RegistrationTest extends BaseTest {
 
     String firstName = faker.name().firstName();
     String lastName = faker.name().lastName();
-    String phoneNUmber = faker.phoneNumber().phoneNumber();
+    String phoneNumber = faker.phoneNumber().phoneNumber();
 
 
 
@@ -49,7 +49,7 @@ public class RegistrationTest extends BaseTest {
     public void unsuccessfulRegistration() {
         registerPage.unsuccessfulRegistration(
                 firstName, lastName,
-                firstName + lastName + "@gmail.com", phoneNUmber,
+                firstName + lastName + "@gmail.com", phoneNumber,
                 "Teszt123", "Teszt123");
 
         assertTrue(registerPage.privacyAlertDisplay());
@@ -61,7 +61,7 @@ public class RegistrationTest extends BaseTest {
     public void successfulRegistration() {
         registerPage.successfulRegistration(
                 firstName, lastName,
-                firstName + lastName + "@gmail.com", phoneNUmber,
+                firstName + lastName + "@gmail.com", phoneNumber,
                 "Teszt123", "Teszt123");
 
         SuccessRegisterPage successRegisterPage = new SuccessRegisterPage(driver);

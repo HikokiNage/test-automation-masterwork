@@ -1,5 +1,5 @@
 {
-  "uid" : "a77db1b52635ff6f",
+  "uid" : "ca97d81fbb7622a1",
   "name" : "Save products names",
   "fullName" : "Tests.GetProductsNamesTest.getAllProductsNames",
   "historyId" : "3db1db20e1715f4f35a0e8416f46fe1f",
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a77db1b52635ff6f.json",
+  "source" : "ca97d81fbb7622a1.json",
   "parameterValues" : [ ]
 }

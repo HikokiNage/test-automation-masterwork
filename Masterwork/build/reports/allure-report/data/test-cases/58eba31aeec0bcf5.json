@@ -1,15 +1,15 @@
 {
-  "uid" : "c8de9e7b7b160b35",
-  "name" : "Successful login",
-  "fullName" : "Tests.LoginTest.SuccessfulLogin",
-  "historyId" : "9fc9056e22447b4bf5aed746b6832244",
+  "uid" : "58eba31aeec0bcf5",
+  "name" : "Unsuccessful login",
+  "fullName" : "Tests.LoginTest.unSuccessfulLogin",
+  "historyId" : "64760bbe42b1c510e3eca90b5388ce3c",
   "time" : {
-    "start" : 1628167649311,
-    "stop" : 1628167653429,
-    "duration" : 4118
+    "start" : 1628194895054,
+    "stop" : 1628194898582,
+    "duration" : 3528
   },
-  "description" : "The user successfully logged in.",
-  "descriptionHtml" : "<p>The user successfully logged in.</p>\n",
+  "description" : "The user don't add username and password.",
+  "descriptionHtml" : "<p>The user don't add username and password.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -22,7 +22,7 @@
     "value" : "DESKTOP-S8P5BE1"
   }, {
     "name" : "thread",
-    "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "Tests.LoginTest"
@@ -31,7 +31,7 @@
     "value" : "Tests.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "SuccessfulLogin"
+    "value" : "unSuccessfulLogin"
   }, {
     "name" : "suite",
     "value" : "Tests.LoginTest"
@@ -45,10 +45,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "3ceb4c985a2edcbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167643252,
+        "stop" : 1628167649302,
+        "duration" : 6050
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c8de9e7b7b160b35.json",
+  "source" : "58eba31aeec0bcf5.json",
   "parameterValues" : [ ]
 }

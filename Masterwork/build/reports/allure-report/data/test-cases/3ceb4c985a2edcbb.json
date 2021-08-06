@@ -1,5 +1,5 @@
 {
-  "uid" : "b8b71f0bd0115f6f",
+  "uid" : "3ceb4c985a2edcbb",
   "name" : "Unsuccessful login",
   "fullName" : "Tests.LoginTest.unSuccessfulLogin",
   "historyId" : "64760bbe42b1c510e3eca90b5388ce3c",
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b8b71f0bd0115f6f.json",
+  "source" : "3ceb4c985a2edcbb.json",
   "parameterValues" : [ ]
 }

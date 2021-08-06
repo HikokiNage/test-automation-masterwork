@@ -1,0 +1,62 @@
+{
+  "uid" : "2d9ca420ea2d8329",
+  "name" : "Remove a product fom the cart",
+  "fullName" : "Tests.ShoppingTest.removeFromCart",
+  "historyId" : "a28a134f40a5f86592ee9218ce68a634",
+  "time" : {
+    "start" : 1628194940689,
+    "stop" : 1628194942559,
+    "duration" : 1870
+  },
+  "description" : "The user remove a product from the cart",
+  "descriptionHtml" : "<p>The user remove a product from the cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add to cart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8P5BE1"
+  }, {
+    "name" : "thread",
+    "value" : "18912@DESKTOP-S8P5BE1.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Tests.ShoppingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ShoppingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "removeFromCart"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.ShoppingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "82d34b9759b38abe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167717783,
+        "stop" : 1628167721918,
+        "duration" : 4135
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d9ca420ea2d8329.json",
+  "parameterValues" : [ ]
+}

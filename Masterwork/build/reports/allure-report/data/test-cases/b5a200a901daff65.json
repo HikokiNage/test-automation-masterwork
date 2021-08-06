@@ -1,22 +1,22 @@
 {
-  "uid" : "a193ea19f9f225ee",
-  "name" : "Success logout",
-  "fullName" : "Tests.LogoutTest.logout",
-  "historyId" : "b94ccf6afcec664eb63e8a1ce327062f",
+  "uid" : "b5a200a901daff65",
+  "name" : "Go to next page",
+  "fullName" : "Tests.PaginationTest.pagination",
+  "historyId" : "7dde8b390318a9a62aaa01ff0cdf736b",
   "time" : {
-    "start" : 1628167655524,
-    "stop" : 1628167662311,
-    "duration" : 6787
+    "start" : 1628167664536,
+    "stop" : 1628167669764,
+    "duration" : 5228
   },
-  "description" : "User logout was successful",
-  "descriptionHtml" : "<p>User logout was successful</p>\n",
+  "description" : "The user flips through the next page.",
+  "descriptionHtml" : "<p>The user flips through the next page.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Logout"
+    "value" : "Pagination"
   }, {
     "name" : "host",
     "value" : "DESKTOP-S8P5BE1"
@@ -25,30 +25,28 @@
     "value" : "25044@DESKTOP-S8P5BE1.Test worker(11)"
   }, {
     "name" : "package",
-    "value" : "Tests.LogoutTest"
+    "value" : "Tests.PaginationTest"
   }, {
     "name" : "testClass",
-    "value" : "Tests.LogoutTest"
+    "value" : "Tests.PaginationTest"
   }, {
     "name" : "testMethod",
-    "value" : "logout"
+    "value" : "pagination"
   }, {
     "name" : "suite",
-    "value" : "Tests.LogoutTest"
+    "value" : "Tests.PaginationTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a193ea19f9f225ee.json",
+  "source" : "b5a200a901daff65.json",
   "parameterValues" : [ ]
 }

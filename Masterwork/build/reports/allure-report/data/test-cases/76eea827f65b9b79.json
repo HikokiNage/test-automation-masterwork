@@ -1,5 +1,5 @@
 {
-  "uid" : "caaea48193b2928",
+  "uid" : "76eea827f65b9b79",
   "name" : "Sort A-Z",
   "fullName" : "Tests.ListingTest.shouldListToA_Z",
   "historyId" : "cea36cc0165989fdf4fbfdaec292fcbd",
@@ -41,14 +41,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "caaea48193b2928.json",
+  "source" : "76eea827f65b9b79.json",
   "parameterValues" : [ ]
 }
