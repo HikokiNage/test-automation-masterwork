@@ -53,7 +53,7 @@ public class ShoppingTest extends BaseTest{
     }
 
     @Test
-    @DisplayName("Remove a product fom the cart")
+    @DisplayName("Remove a product from the cart")
     @Description("The user remove a product from the cart")
     public void removeFromCart() throws InterruptedException {
         homePage.getProductInCart().click();
