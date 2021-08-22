@@ -15,5 +15,5 @@ A manuális teszteseket ezen a linken találhatók: https://docs.google.com/spre
 
 Forkold a repositoryt majd clone-ozd le a saját gépedre. Szükség lesz az Allure Framework-re, aminek a telepítéséhez a következő oldalon találsz segítséget: https://docs.qameta.io/allure/ , és a Gradle Build Tool-ra aminek a telepítéséhez itt találsz segítséget: https://gradle.org/install/ .
 
-A parancssorban navigálj a root könyvtárba és add ki a gradlew test parancsot.
-Ez után add ki a allure serve <path to your Allure-results folder> parancsot.
+A parancssorban navigálj a root könyvtárba és add ki a "gradlew test" parancsot.
+Ez után add ki az "allure serve build/allure-results" parancsot.
